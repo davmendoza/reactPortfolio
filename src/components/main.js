@@ -8,7 +8,7 @@ import Resume from './resume';
 import LandingPage from './landingpage';
 
 const Main = () => (
-    <Router basename={public.env.PUBLIC_URL}>
+    <Router >
     <Switch>
         <Route exact path="/" component={LandingPage}/>
         <Route path="/aboutme" component={AboutMe}/>
