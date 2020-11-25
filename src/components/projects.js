@@ -16,27 +16,100 @@ class Projects extends Component {
                     <CardText>
                         kzs;lkads;lka;lfkS:L
                     </CardText>
+                    <CardActions border >
+                        <Button colored style={{ float: 'left'}}  >Live App</Button>
+                        
+                        <Button colored style={{ float: 'right'}} href="https://github.com/msurio/project2" rel="noopener noreferrer" target="_blank">Code</Button>
+                   </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share"/>
+                    </CardMenu>
                 </Card>
             )
         } else if (this.state.activeTab === 1) {
             return (
-                <div><h1>Boo Chat</h1></div>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background:'url() center / cover'}}></CardTitle>
+                    <CardText>
+                        kzs;lkads;lka;lfkS:L
+                    </CardText>
+                    <CardActions border >
+                        <Button colored style={{ float: 'left'}}>Live App</Button>
+                        
+                        <Button colored style={{ float: 'right'}}>Code</Button>
+                   </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share"/>
+                    </CardMenu>
+                </Card>
             )
         } else if (this.state.activeTab === 2) {
             return (
-                <div><h1>Note Taker</h1></div>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background:'url() center / cover'}}></CardTitle>
+                    <CardText>
+                        kzs;lkads;lka;lfkS:L
+                    </CardText>
+                    <CardActions border >
+                        <Button colored style={{ float: 'left'}}>Live App</Button>
+                        
+                        <Button colored style={{ float: 'right'}}>Code</Button>
+                   </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share"/>
+                    </CardMenu>
+                </Card>
             )
         } else if (this.state.activeTab === 3) {
             return (
-                <div><h1>Something with Mongo</h1></div>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background:'url() center / cover'}}></CardTitle>
+                    <CardText>
+                        kzs;lkads;lka;lfkS:L
+                    </CardText>
+                    <CardActions border >
+                        <Button colored style={{ float: 'left'}}>Live App</Button>
+                        
+                        <Button colored style={{ float: 'right'}}>Code</Button>
+                   </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share"/>
+                    </CardMenu>
+                </Card>
             )
         } else if (this.state.activeTab === 4) {
             return (
-                <div><h1>Handlebars and Heroku</h1></div>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background:'url() center / cover'}}></CardTitle>
+                    <CardText>
+                        kzs;lkads;lka;lfkS:L
+                    </CardText>
+                    <CardActions border >
+                        <Button colored style={{ float: 'left'}}>Live App</Button>
+                        
+                        <Button colored style={{ float: 'right'}}>Code</Button>
+                   </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share"/>
+                    </CardMenu>
+                </Card>
             )
         } else if (this.state.activeTab === 5) {
             return (
-                <div><h1>SoleMate App</h1></div>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background:'url() center / cover'}}></CardTitle>
+                    <CardText>
+                        kzs;lkads;lka;lfkS:L
+                    </CardText>
+                    <CardActions border >
+                        <Button colored style={{ float: 'left'}}>Live App</Button>
+                        
+                        <Button colored style={{ float: 'right'}}>Code</Button>
+                   </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share"/>
+                    </CardMenu>
+                </Card>
             )
         }
     }
@@ -47,7 +120,7 @@ class Projects extends Component {
         return (
             <div className="category-tabs">
                 <Tabs activeTab={this.state.active} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple >
-                    <Tab>Project 1</Tab>
+                    <Tab>Express/Handlebars</Tab>
                     <Tab>Project 2</Tab>
                     <Tab>Project 3</Tab>
                     <Tab>Project 4</Tab>
